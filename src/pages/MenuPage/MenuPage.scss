@@ -1,0 +1,102 @@
+#menu {
+  margin-top: 126px;
+  .container {
+    width: 1440px;
+  }
+  .menu-category {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    .category-boxes {
+      display: flex;
+      gap: 18px;
+    }
+  }
+  .category-select {
+    display: flex;
+    height: 50px;
+    gap: 16px;
+    .select-input {
+      width: 223px;
+      height: 50px;
+      border-radius: 23px;
+    }
+    .mySelect__control {
+      display: flex;
+      position: relative;
+      border-radius: 18px;
+    }
+    .mySelect__value-container {
+      height: 56px !important;
+      position: absolute;
+      top: 2px;
+
+      .mySelect__placeholder {
+        margin-bottom: 13px;
+      }
+      .mySelect__input-container {
+        height: 45px !important;
+        position: absolute;
+        top: 1px;
+      }
+    }
+    .mySelect__indicators {
+      position: absolute;
+      right: 5px;
+    }
+  }
+  .menu-products {
+    margin-top: 28px;
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    .container__dish-box {
+      margin-top: 0px;
+    }
+    .container__dish-box:nth-child(n + 5) {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  #menu {
+    .container {
+      width: 1050px;
+    }
+    .menu-category {
+      margin-top: 20px;
+      .category-boxes {
+        gap: 10px;
+        align-items: center;
+      }
+    }
+    .category-select {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  #menu {
+    .container {
+      width: 375px;
+    }
+    .menu-category {
+      .category-boxes {
+        display: none;
+      }
+      .category-select {
+        margin: 0 auto;
+      }
+    }
+    .menu-products {
+      flex-direction: column;
+      align-items: center;
+      .container__dish-box:nth-child(n + 2) {
+        margin-top: 20px;
+      }
+    }
+  }
+}

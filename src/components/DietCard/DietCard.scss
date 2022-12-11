@@ -80,42 +80,44 @@
 }
 
 @media only screen and (min-width: 1080px) and (max-width: 1439px) {
-  .diets-card__head {
-    img {
-      width: 250px !important;
-      height: 150px !important;
-    }
-  }
-  .diets-card__body {
-    font-family: "Open Sans";
-    font-style: normal;
-    h4 {
-      font-size: 14px !important;
-      line-height: 20px !important;
-      margin-top: 12px !important;
-    }
-    .diets-calories {
-      p {
-        font-size: 12px !important;
-        line-height: 17px !important;
+  .diets-card__item {
+    .diets-card__head {
+      img {
+        width: 250px;
+        height: 150px;
       }
     }
-    .diets-description {
-      width: 250px !important;
-      p {
-        font-size: 11px !important;
-        line-height: 14px !important;
+    .diets-card__body {
+      font-family: "Open Sans";
+      font-style: normal;
+      h4 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 12px;
+      }
+      .diets-calories {
+        p {
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+      .diets-description {
+        width: 250px;
+        p {
+          font-size: 11px;
+          line-height: 14px;
+        }
       }
     }
-  }
-  .diets-card__footer {
-    .diets-price {
-      p {
-        font-size: 12px !important;
-        line-height: 17px !important;
-        span {
-          line-height: 36px !important;
-          font-size: 23px !important;
+    .diets-card__footer {
+      .diets-price {
+        p {
+          font-size: 12px;
+          line-height: 17px;
+          span {
+            line-height: 36px;
+            font-size: 23px;
+          }
         }
       }
     }
