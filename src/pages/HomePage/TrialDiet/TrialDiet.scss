@@ -4,28 +4,7 @@
     width: 1440px;
     height: 381px;
     position: relative;
-    .container__top-left {
-      position: absolute;
-      top: -39px;
-      right: 50%;
-    }
-    .container__top-right {
-      position: absolute;
-      right: 47%;
-      top: -39px;
-    }
-    .container__bottom-left {
-      position: absolute;
-      bottom: -39px;
-      right: 47%;
-      transform: rotate(180deg);
-    }
-    .container__bottom-right {
-      position: absolute;
-      right: 50%;
-      bottom: -39px;
-      transform: rotate(180deg);
-    }
+
     .container__left-content {
       width: 100%;
       overflow: hidden;
@@ -99,6 +78,7 @@
         color: white;
         padding: 12px 23px;
         transition: 0.5s;
+        cursor: pointer;
         &:hover {
           background-color: #3f3f44;
         }
@@ -109,18 +89,6 @@
 @media only screen and (min-width: 1080px) and (max-width: 1439px) {
   #trial-diet {
     .container {
-      .container__top-left {
-        right: 49%;
-      }
-      .container__top-right {
-        right: 45%;
-      }
-      .container__bottom-right {
-        right: 49%;
-      }
-      .container__bottom-left {
-        right: 45%;
-      }
       .container__middle-content {
         padding: 87px 0px;
 

@@ -1,0 +1,154 @@
+.container__dish-box {
+  width: 347px;
+  .box-head {
+    position: relative;
+    img {
+      border-radius: 48px;
+    }
+    .dish-rate {
+      width: 44px;
+      height: 44px;
+      background: #fdfbfa;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      p {
+        margin: 0;
+        color: #ffb21a;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+    .dish-category {
+      position: absolute;
+      bottom: -3.8%;
+      left: 31%;
+    }
+  }
+  .box-body {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    .dish-text {
+      width: 280px;
+      .content-title {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+      }
+      .content-text {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #adaeaf;
+        margin: 8px 0 0 0;
+      }
+    }
+    .dish-calorie {
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #adaeaf;
+        margin: 0;
+      }
+    }
+  }
+  .box-footer {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    .diet-type {
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+        span {
+          color: #adaeaf;
+        }
+      }
+    }
+    .icons {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .container__dish-box {
+    width: 249px;
+    .box-head {
+      img {
+        width: 100%;
+      }
+      .dish-rate {
+        width: 34px;
+        height: 34px;
+
+        p {
+          font-size: 14px;
+        }
+      }
+      .dish-category {
+        left: 29%;
+      }
+    }
+    .box-body {
+      margin-top: 14px;
+      .dish-text {
+        width: 180px;
+        .content-title {
+          font-size: 12px;
+        }
+        .content-text {
+          font-size: 11px;
+        }
+      }
+      .dish-calorie {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .box-footer {
+      margin-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      .diet-type {
+        p {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 22px;
+          margin: 0;
+          span {
+            color: #adaeaf;
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}
