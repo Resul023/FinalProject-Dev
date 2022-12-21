@@ -1,5 +1,5 @@
 import "./RecommendationSummaryHeadling.scss";
-
+import arrowright from '../../../../../../image/HomePage/arrow-right.png';
 export const RecommendationSummaryHeadling: React.FC = () => {
   return (
     <div className="recommendation_summary_headling">
@@ -7,7 +7,7 @@ export const RecommendationSummaryHeadling: React.FC = () => {
         We cook – they enjoy every minute of their
         <img
           className="arrow-right"
-          src={require("../../../../../../image/HomePage/arrow-right.png")}
+          src={arrowright}
           alt="arrow"
         />
         lives
@@ -15,3 +15,4 @@ export const RecommendationSummaryHeadling: React.FC = () => {
     </div>
   );
 };
+

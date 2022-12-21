@@ -1,5 +1,5 @@
 import React from "react";
-import "../NavMenu/NavMenu.scss";
+import "./NavMenu.scss";
 export const NavMenu: React.FC = () => {
   const liList = [
     "Diets",
@@ -13,9 +13,9 @@ export const NavMenu: React.FC = () => {
   return (
     <nav>
       <ul>
-        {liList.map((item) => (
+        {liList.map((navItem) => (
           <li>
-            <a href="#">{item}</a>
+            <a href="#">{navItem}</a>
           </li>
         ))}
       </ul>

@@ -13,9 +13,9 @@ export const HamburgerMenu: React.FC = () => {
   return (
     <div className="hamburger-menu">
       <ul>
-        {hamburgerList.map((item) => (
+        {hamburgerList.map((hamburgerItem) => (
           <li>
-            <a href="#">{item}</a>
+            <a href="#">{hamburgerItem}</a>
           </li>
         ))}
       </ul>
