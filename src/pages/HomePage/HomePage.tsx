@@ -1,4 +1,9 @@
 import "./HomePage.scss";
-export const HomePage = () => {
-  return <h1>HomePage</h1>;
+import { RecommendationSection } from "./RecommendationSection/RecommendationSection";
+export const HomePage: React.FC = () => {
+  return (
+    <div>
+      <RecommendationSection></RecommendationSection>
+    </div>
+  );
 };
