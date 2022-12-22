@@ -13,8 +13,8 @@ export const NavMenu: React.FC = () => {
   return (
     <nav>
       <ul>
-        {liList.map((navItem) => (
-          <li>
+        {liList.map((navItem, index) => (
+          <li key={index}>
             <a href="#">{navItem}</a>
           </li>
         ))}

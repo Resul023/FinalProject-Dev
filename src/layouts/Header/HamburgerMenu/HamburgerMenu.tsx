@@ -13,8 +13,8 @@ export const HamburgerMenu: React.FC = () => {
   return (
     <div className="hamburger-menu">
       <ul>
-        {hamburgerList.map((hamburgerItem) => (
-          <li>
+        {hamburgerList.map((hamburgerItem, index) => (
+          <li key={index}>
             <a href="#">{hamburgerItem}</a>
           </li>
         ))}
